@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nine Knots Marine — A new generation long-range electric motor yacht for transoceanic voyages. Precision-built for those who know the sea." />
+  <title>NINE KNOTS MARINE — Long-Range Cruising Yacht</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════ NAVIGATION ═══ -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo" data-i18n="nav.logo">NINE KNOTS</a>
+
+    <button class="nav-hamburger" id="hamburgerBtn" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <div class="nav-center" id="navCenter">
+      <a href="#project"    class="nav-link" data-i18n="nav.project">Project</a>
+      <a href="#yacht"      class="nav-link" data-i18n="nav.yacht">The Yacht</a>
+      <a href="#philosophy" class="nav-link" data-i18n="nav.design">Design</a>
+      <a href="#innovation" class="nav-link" data-i18n="nav.innovation">Innovation</a>
+      <a href="#gallery"    class="nav-link" data-i18n="nav.gallery">Gallery</a>
+      <a href="#acquisition" class="nav-link nav-link--cta" data-i18n="nav.acquire">Acquire</a>
+    </div>
+
+    <div class="nav-right">
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <span class="lang-divider">|</span>
+        <button class="lang-btn" data-lang="fr">FR</button>
+        <span class="lang-divider">|</span>
+        <button class="lang-btn" data-lang="zh">中文</button>
+      </div>
+    </div>
+
+    <!-- Mobile menu overlay -->
+    <div class="mobile-menu" id="mobileMenu">
+      <nav class="mobile-nav">
+        <a href="#project"    class="mobile-nav-link" data-i18n="nav.project">Project</a>
+        <a href="#yacht"      class="mobile-nav-link" data-i18n="nav.yacht">The Yacht</a>
+        <a href="#philosophy" class="mobile-nav-link" data-i18n="nav.design">Design</a>
+        <a href="#innovation" class="mobile-nav-link" data-i18n="nav.innovation">Innovation</a>
+        <a href="#gallery"    class="mobile-nav-link" data-i18n="nav.gallery">Gallery</a>
+        <a href="#acquisition" class="mobile-nav-link" data-i18n="nav.acquire">Acquire</a>
+      </nav>
+      <div class="mobile-lang">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <span class="lang-divider">|</span>
+        <button class="lang-btn" data-lang="fr">FR</button>
+        <span class="lang-divider">|</span>
+        <button class="lang-btn" data-lang="zh">中文</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════ HERO ══════ -->
+  <section id="hero">
+    <div class="hero-bg">
+      <img src="images/gallery-7.jpg" alt="" class="hero-bg-img" />
+    </div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content container">
+      <span class="hero-eyebrow reveal" data-i18n="hero.eyebrow">Long-Range Cruising Yacht</span>
+      <h1 class="hero-headline reveal reveal--delay-1" data-i18n="hero.headline">Crafted for Those<br>Who Sail Beyond</h1>
+      <p class="hero-sub reveal reveal--delay-2" data-i18n="hero.subheadline">The 9K42 is a new generation of electric motor yacht — built for transoceanic passages,<br>designed for a life fully lived at sea.</p>
+      <div class="hero-ctas reveal reveal--delay-3">
+        <a href="#yacht"      class="btn btn-primary"  data-i18n="hero.cta1">Discover the Yacht</a>
+        <a href="#acquisition" class="btn btn-outline"  data-i18n="hero.cta2">Register Interest</a>
+      </div>
+    </div>
+
+    <div class="hero-numbers reveal reveal--delay-4">
+      <div class="hero-stat">
+        <span class="hero-stat__value">12.8<sup>m</sup></span>
+        <span class="hero-stat__label" data-i18n="hero.stat1">Overall Length</span>
+      </div>
+      <div class="hero-stat-divider"></div>
+      <div class="hero-stat">
+        <span class="hero-stat__value">90<sup>kWh</sup></span>
+        <span class="hero-stat__label" data-i18n="hero.stat2">Battery Pack</span>
+      </div>
+      <div class="hero-stat-divider"></div>
+      <div class="hero-stat">
+        <span class="hero-stat__value">12</span>
+        <span class="hero-stat__label" data-i18n="hero.stat3">Hulls — First Series</span>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <span class="hero-scroll__line"></span>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ THE PROJECT ═══ -->
+  <section id="project" class="section section--light">
+    <div class="container">
+      <div class="section-label reveal" data-i18n="project.label">The Project</div>
+      <div class="project-grid">
+        <div class="project-text">
+          <h2 class="section-title reveal" data-i18n="project.title">A New Vision of<br>Blue-Water Sailing</h2>
+          <p class="body-text reveal" data-i18n="project.p1">Nine Knots Marine was born from years of offshore experience and a clear conviction: the perfect ocean passage is one where the yacht disappears into the background, and the sea takes centre stage.</p>
+          <p class="body-text reveal" data-i18n="project.p2">We questioned every convention. We studied what breaks, what wears, what fatigues crews on long passages — and what, by contrast, inspires confidence and peace of mind. Then we drew a yacht that answers those questions honestly.</p>
+          <p class="body-text reveal" data-i18n="project.p3">Not a performance racing machine. Not a floating apartment. A proper offshore cruiser: safe, capable, autonomous — and deeply satisfying to live aboard for weeks at a time.</p>
+        </div>
+        <div class="project-aside reveal">
+          <div class="project-photo">
+            <img src="images/gallery-3.jpg" alt="Nine Knots Marine underway" loading="lazy" />
+          </div>
+          <div class="project-quote">
+            <blockquote data-i18n="project.quote">"The sea demands honesty from a yacht. We designed one that can answer."</blockquote>
+          </div>
+          <div class="project-origin">
+            <div class="origin-item">
+              <span class="origin-number">01</span>
+              <span class="origin-text" data-i18n="project.origin1">Founded on deep offshore racing experience</span>
+            </div>
+            <div class="origin-item">
+              <span class="origin-number">02</span>
+              <span class="origin-text" data-i18n="project.origin2">Designed in collaboration with veteran blue-water cruisers</span>
+            </div>
+            <div class="origin-item">
+              <span class="origin-number">03</span>
+              <span class="origin-text" data-i18n="project.origin3">Built in Northern Europe, to the highest structural standards</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════ THE YACHT ══════ -->
+  <section id="yacht" class="section section--dark">
+    <div class="container">
+      <div class="section-label section-label--light reveal" data-i18n="yacht.label">The Yacht</div>
+      <h2 class="section-title section-title--light reveal" data-i18n="yacht.title">Designed to Cross Oceans</h2>
+      <p class="section-intro section-intro--light reveal" data-i18n="yacht.intro">Twenty-four metres of considered design. A hull conceived for heavy weather, steady progress, and genuine independence offshore.</p>
+
+      <div class="specs-grid reveal">
+        <div class="spec-card">
+          <span class="spec-value">12.8</span>
+          <span class="spec-unit">m</span>
+          <span class="spec-label" data-i18n="yacht.spec1.label">Overall Length</span>
+          <span class="spec-detail" data-i18n="yacht.spec1.detail">LWL ~12 m</span>
+        </div>
+        <div class="spec-card">
+          <span class="spec-value">4.0</span>
+          <span class="spec-unit">m</span>
+          <span class="spec-label" data-i18n="yacht.spec2.label">Beam</span>
+          <span class="spec-detail" data-i18n="yacht.spec2.detail">Displacement hull, efficiency-optimised</span>
+        </div>
+        <div class="spec-card">
+          <span class="spec-value">6.5</span>
+          <span class="spec-unit">t</span>
+          <span class="spec-label" data-i18n="yacht.spec3.label">Displacement</span>
+          <span class="spec-detail" data-i18n="yacht.spec3.detail">Light offshore E-Trawler</span>
+        </div>
+        <div class="spec-card">
+          <span class="spec-value">90</span>
+          <span class="spec-unit">kWh</span>
+          <span class="spec-label" data-i18n="yacht.spec4.label">Battery Pack</span>
+          <span class="spec-detail" data-i18n="yacht.spec4.detail">80–100 kWh LFP, 96V DC bus</span>
+        </div>
+        <div class="spec-card">
+          <span class="spec-value">2×25</span>
+          <span class="spec-unit">kW</span>
+          <span class="spec-label" data-i18n="yacht.spec5.label">Electric Drive</span>
+          <span class="spec-detail" data-i18n="yacht.spec5.detail">Silent twin-motor propulsion</span>
+        </div>
+        <div class="spec-card">
+          <span class="spec-value">7</span>
+          <span class="spec-unit">nd</span>
+          <span class="spec-label" data-i18n="yacht.spec6.label">Cruise Speed</span>
+          <span class="spec-detail" data-i18n="yacht.spec6.detail">Efficiency sweet-spot</span>
+        </div>
+      </div>
+
+      <div class="yacht-note reveal">
+        <p data-i18n="yacht.note">Lifting keel option available: draft adjustable from 1.25 m to 2.45 m for shallow harbour access.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════ IMAGE BAND ════════ -->
+  <div class="image-band reveal">
+    <img src="images/gallery-4.jpg" alt="Nine Knots Marine aerial view" loading="lazy" />
+    <div class="image-band__overlay"></div>
+    <div class="image-band__text">
+      <span data-i18n="imageband.quote">The sea is better at 9 knots.</span>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════ CORE QUALITIES ═════ -->
+  <section id="qualities" class="section section--light">
+    <div class="container">
+      <div class="section-label reveal" data-i18n="qualities.label">Core Qualities</div>
+      <h2 class="section-title reveal" data-i18n="qualities.title">What We Built For</h2>
+
+      <div class="qualities-grid">
+
+        <div class="quality-card reveal">
+          <div class="quality-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 4L36 12V24C36 31.2 28.8 37.2 20 38C11.2 37.2 4 31.2 4 24V12L20 4Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+              <path d="M14 20L18 24L26 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="quality-title" data-i18n="qualities.q1.title">Offshore Safety</h3>
+          <p class="quality-text" data-i18n="qualities.q1.text">A double-skinned composite hull built to ISO Category A — ocean. Redundant steering, self-draining cockpit, structural integrity designed for survival conditions.</p>
+        </div>
+
+        <div class="quality-card reveal">
+          <div class="quality-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="15" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="20" cy="20" r="3" fill="currentColor"/>
+              <line x1="20" y1="5" x2="20" y2="11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="20" y1="29" x2="20" y2="35" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="5" y1="20" x2="11" y2="20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="29" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M20 17L21.5 20H18.5L20 17Z" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3 class="quality-title" data-i18n="qualities.q2.title">True Autonomy</h3>
+          <p class="quality-text" data-i18n="qualities.q2.text">Months at anchor without a marina. Solar, wind, and hybrid propulsion provide consistent energy independence. The yacht sustains itself so you can focus on the journey.</p>
+        </div>
+
+        <div class="quality-card reveal">
+          <div class="quality-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 28C8 22 12 18 20 18C28 18 32 22 36 28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M4 34C8 28 12 24 20 24C28 24 32 28 36 34" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M20 6V18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <circle cx="20" cy="6" r="2.5" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <h3 class="quality-title" data-i18n="qualities.q3.title">Seakeeping</h3>
+          <p class="quality-text" data-i18n="qualities.q3.text">A hull designed for steady, comfortable progress in all sea states. Moderate displacement, a deep forefoot, and generous initial stability translate into a calm, predictable motion at sea.</p>
+        </div>
+
+        <div class="quality-card reveal">
+          <div class="quality-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="16" width="24" height="18" rx="2" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M14 16V12C14 8.7 16.7 6 20 6C23.3 6 26 8.7 26 12V16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <circle cx="20" cy="25" r="3" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <h3 class="quality-title" data-i18n="qualities.q4.title">Comfort Aboard</h3>
+          <p class="quality-text" data-i18n="qualities.q4.text">Live-aboard quality without compromise. Insulated to Scandinavian standards, superbly sound-proofed, ergonomically considered. A space that feels like home after thirty days at sea.</p>
+        </div>
+
+        <div class="quality-card reveal">
+          <div class="quality-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <line x1="10" y1="14" x2="30" y2="14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="10" y1="20" x2="30" y2="20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="10" y1="26" x2="22" y2="26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="quality-title" data-i18n="qualities.q5.title">Considered Simplicity</h3>
+          <p class="quality-text" data-i18n="qualities.q5.text">Every system selected for reliability, repairability, and ease of use. Nothing superfluous. The result is a yacht that two people can operate confidently, anywhere in the world.</p>
+        </div>
+
+        <div class="quality-card reveal">
+          <div class="quality-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <polygon points="20,4 24,14 35,14 26,21 30,32 20,25 10,32 14,21 5,14 16,14" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="quality-title" data-i18n="qualities.q6.title">Craftsmanship</h3>
+          <p class="quality-text" data-i18n="qualities.q6.text">European boatbuilding tradition applied to every surface, joint, and fitting. Premium teak, stainless, and composites, finished with the care that only a limited series allows.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════ DESIGN PHILOSOPHY ═════ -->
+  <section id="philosophy" class="section section--warm">
+    <div class="container">
+      <div class="philosophy-grid">
+        <div class="philosophy-left reveal">
+          <div class="section-label" data-i18n="philosophy.label">Design Philosophy</div>
+          <h2 class="section-title" data-i18n="philosophy.title">Form Follows<br>the Sea</h2>
+        </div>
+        <div class="philosophy-right">
+          <p class="philosophy-lead reveal" data-i18n="philosophy.lead">We took inspiration from the Scandinavian design tradition: that beauty is a consequence of honesty, not ornament.</p>
+          <p class="body-text reveal" data-i18n="philosophy.p1">Every line of Nine Knots' interior was drawn for a purpose — the angle of the chart table, the height of the companionway, the depth of the cockpit. Where other yachts layer on aesthetics, we stripped back to structure. The result is an interior that feels serene rather than styled.</p>
+          <p class="body-text reveal" data-i18n="philosophy.p2">On deck, a flush flush, uncluttered layout allows confident movement in any conditions. Halyards and sheets are led to a single point of control at the helm. The cockpit is protected, deep, and sized for long night watches.</p>
+          <p class="body-text reveal" data-i18n="philosophy.p3">The colour of oiled oak. The weight of a stainless fitting. The silence of an electric drivetrain at cruising speed. These details are not decorative. They are the measure of a serious yacht.</p>
+          <div class="philosophy-line reveal"></div>
+          <p class="philosophy-signature reveal" data-i18n="philosophy.signature">— The Nine Knots Design Studio, Gothenburg</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════ FOR WHOM ═════════ -->
+  <section id="for-whom" class="section section--dark section--with-photo">
+    <img src="images/gallery-1.jpg" alt="" class="section-bg-img" loading="lazy" />
+    <div class="container">
+      <div class="section-label section-label--light reveal" data-i18n="forwhom.label">For Whom</div>
+      <div class="forwhom-grid">
+        <div class="forwhom-headline reveal">
+          <h2 class="section-title section-title--light" data-i18n="forwhom.title">For the Sailor Who Has Already Crossed Oceans</h2>
+        </div>
+        <div class="forwhom-content">
+          <p class="body-text body-text--light reveal" data-i18n="forwhom.p1">You have accumulated miles and wisdom offshore. You know the difference between a yacht that looks capable and one that is. You have lived through the compromises of previous boats and have a clear picture of what you would do differently.</p>
+          <p class="body-text body-text--light reveal" data-i18n="forwhom.p2">Nine Knots Marine is for the owner who intends to use their yacht — not to keep it on a pontoon and charter it out. For the couple who want to cross the Pacific without a professional crew. For the experienced sailor who plans a circumnavigation and expects the boat to be ready before they are.</p>
+          <div class="forwhom-profiles reveal">
+            <div class="profile-item">
+              <span class="profile-icon">→</span>
+              <span data-i18n="forwhom.profile1">The transatlantic couple planning extended bluewater passages</span>
+            </div>
+            <div class="profile-item">
+              <span class="profile-icon">→</span>
+              <span data-i18n="forwhom.profile2">The experienced solo or shorthanded offshore sailor</span>
+            </div>
+            <div class="profile-item">
+              <span class="profile-icon">→</span>
+              <span data-i18n="forwhom.profile3">The owner seeking a lasting, considered investment in serious sailing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════ INNOVATION / ENERGY ══════ -->
+  <section id="innovation" class="section section--light">
+    <div class="container">
+      <div class="section-label reveal" data-i18n="innovation.label">Innovation &amp; Energy</div>
+      <h2 class="section-title reveal" data-i18n="innovation.title">Technology in<br>the Service of Independence</h2>
+      <p class="section-intro reveal" data-i18n="innovation.intro">Nine Knots Marine incorporates advanced systems with one guiding principle: they should make your life at sea quieter, safer, and more self-sufficient — not more complicated.</p>
+
+      <div class="innovation-grid">
+
+        <div class="innovation-item reveal">
+          <div class="innovation-number">01</div>
+          <h3 class="innovation-title" data-i18n="innovation.i1.title">Hybrid Propulsion</h3>
+          <p class="innovation-text" data-i18n="innovation.i1.text">A 150 kW electric motor paired with a 3,600-litre diesel reserve. Recharges underway from the range extender, or from shore power in port. Whisper-quiet, with regenerative braking. Near-silent motoring in harbour.</p>
+        </div>
+
+        <div class="innovation-item reveal">
+          <div class="innovation-number">02</div>
+          <h3 class="innovation-title" data-i18n="innovation.i2.title">Energy Independence</h3>
+          <p class="innovation-text" data-i18n="innovation.i2.text">3.2 kWp of flexible solar panels integrated into the deck and bimini. A 2 kW hydrogenerator and optional wind turbine. A 40 kWh lithium battery bank. In the tropics, months of autonomy at anchor without the generator.</p>
+        </div>
+
+        <div class="innovation-item reveal">
+          <div class="innovation-number">03</div>
+          <h3 class="innovation-title" data-i18n="innovation.i3.title">Watermaker System</h3>
+          <p class="innovation-text" data-i18n="innovation.i3.text">A 240 L/h reverse-osmosis watermaker, backed by 1,800 L of stainless tank capacity. Fresh water independence, anywhere. A secondary manually-operated emergency unit is fitted as standard.</p>
+        </div>
+
+        <div class="innovation-item reveal">
+          <div class="innovation-number">04</div>
+          <h3 class="innovation-title" data-i18n="innovation.i4.title">Navigation &amp; Safety Systems</h3>
+          <p class="innovation-text" data-i18n="innovation.i4.text">Integrated Furuno radar, AIS, and chart plotter. Iridium satellite communication. EPIRB and life raft sized for the crew. All critical systems duplicated with analogue fallback. The electronics serve you — not the reverse.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════ GALLERY ════════ -->
+  <section id="gallery" class="section--gallery">
+
+    <!-- ─ Part 1 : Exterior ─────────────────────────────────── -->
+    <div class="gallery-header reveal">
+      <div class="section-label section-label--light" data-i18n="gallery.label">Gallery</div>
+      <h2 class="section-title section-title--light" data-i18n="gallery.title">Nine Knots Marine at Sea</h2>
+      <p class="gallery-part-label" data-i18n="gallery.exterior.title">Exterior</p>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item reveal">
+        <img class="gallery-img" src="images/gallery-3.jpg" alt="At anchor, French Polynesia" loading="lazy" />
+        <div class="gallery-caption" data-i18n="gallery.cap3">At anchor, French Polynesia</div>
+      </div>
+      <div class="gallery-item reveal">
+        <img class="gallery-img" src="images/gallery-5.jpg" alt="At anchor, Corsica" loading="lazy" />
+        <div class="gallery-caption" data-i18n="gallery.cap5">At anchor, Corsica</div>
+      </div>
+      <div class="gallery-item reveal">
+        <img class="gallery-img" src="images/gallery-6.jpg" alt="Terrace deck, evening light" loading="lazy" />
+        <div class="gallery-caption" data-i18n="gallery.cap6">Terrace deck, evening light</div>
+      </div>
+      <div class="gallery-item reveal">
+        <img class="gallery-img" src="images/gallery-7.jpg" alt="Open sea passage" loading="lazy" />
+        <div class="gallery-caption" data-i18n="gallery.cap7">Open sea passage</div>
+      </div>
+    </div>
+
+    <!-- ─ Part 2 : Interior ─────────────────────────────────── -->
+    <div class="gallery-interior-header reveal">
+      <div class="gallery-divider"></div>
+      <p class="gallery-part-label" data-i18n="gallery.interior.title">Interior Design</p>
+    </div>
+
+    <div class="gallery-interior-grid">
+      <div class="gallery-item gallery-item--salon reveal">
+        <img class="gallery-img" src="images/interior-salon.jpg" alt="Main salon and helm station" loading="lazy" />
+        <div class="gallery-caption" data-i18n="gallery.int1">Main salon &amp; helm station</div>
+      </div>
+      <div class="gallery-item gallery-item--galley reveal">
+        <img class="gallery-img" src="images/interior-galley.jpg" alt="Galley and dining space" loading="lazy" />
+        <div class="gallery-caption" data-i18n="gallery.int2">Galley &amp; dining</div>
+      </div>
+      <div class="gallery-item gallery-item--cabin reveal">
+        <img class="gallery-img" src="images/interior-cabin.jpg" alt="Master cabin" loading="lazy" />
+        <div class="gallery-caption" data-i18n="gallery.int3">Master cabin</div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ══════════════════════════════════ ACQUISITION ════════ -->
+  <section id="acquisition" class="section section--dark">
+    <div class="container">
+      <div class="section-label section-label--light reveal" data-i18n="acq.label">Acquisition</div>
+      <div class="acq-header">
+        <h2 class="section-title section-title--light reveal" data-i18n="acq.title">Join the First Series</h2>
+        <p class="section-intro section-intro--light reveal" data-i18n="acq.intro">The initial production run is limited to twelve hulls. If Nine Knots Marine corresponds to your vision of offshore sailing, we invite you to register your interest. A member of our team will contact you personally to discuss your project.</p>
+      </div>
+
+      <form class="acq-form reveal" id="acquisitionForm" novalidate>
+        <div class="form-row form-row--half">
+          <div class="form-group">
+            <label class="form-label" data-i18n="acq.form.name">Full Name</label>
+            <input type="text" class="form-input" name="name" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" data-i18n="acq.form.email">Email Address</label>
+            <input type="email" class="form-input" name="email" required />
+          </div>
+        </div>
+        <div class="form-row form-row--half">
+          <div class="form-group">
+            <label class="form-label" data-i18n="acq.form.country">Country</label>
+            <input type="text" class="form-input" name="country" />
+          </div>
+          <div class="form-group">
+            <label class="form-label" data-i18n="acq.form.background">Sailing Background</label>
+            <select class="form-input form-select" name="background">
+              <option value="" data-i18n="acq.form.bg0">Please select…</option>
+              <option value="coastal"        data-i18n="acq.form.bg1">Coastal &amp; inshore sailing</option>
+              <option value="offshore"       data-i18n="acq.form.bg2">Offshore passages</option>
+              <option value="transatlantic"  data-i18n="acq.form.bg3">Transatlantic crossings</option>
+              <option value="circumnavigation" data-i18n="acq.form.bg4">Circumnavigation experience</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" data-i18n="acq.form.message">Your Project (optional)</label>
+            <textarea class="form-input form-textarea" name="message" rows="4"></textarea>
+          </div>
+        </div>
+        <div class="form-row form-row--submit">
+          <button type="submit" class="btn btn-primary" data-i18n="acq.form.submit">Register My Interest</button>
+          <p class="form-note" data-i18n="acq.form.note">Your information is treated with complete discretion and is never shared with third parties.</p>
+        </div>
+        <div class="form-success" id="acqSuccess">
+          <p data-i18n="acq.form.success">Thank you. We will be in touch shortly.</p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════ CONTACT ════════ -->
+  <section id="contact" class="section section--light">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="section-label reveal" data-i18n="contact.label">Contact</div>
+          <h2 class="section-title reveal" data-i18n="contact.title">Speak with<br>the Studio</h2>
+          <p class="body-text reveal" data-i18n="contact.text">We welcome enquiries from qualified buyers and serious sailing enthusiasts. Reach us directly or complete the form.</p>
+          <div class="contact-details reveal">
+            <div class="contact-detail">
+              <span class="contact-detail__label" data-i18n="contact.studio">Studio</span>
+              <span class="contact-detail__value">Nine Knots Marine<br>Eriksberg, Göteborg<br>Sweden</span>
+            </div>
+            <div class="contact-detail">
+              <span class="contact-detail__label" data-i18n="contact.emailLabel">Email</span>
+              <span class="contact-detail__value">
+                <a href="mailto:contact@nineknotsshipyard.com" class="contact-link">contact@nineknotsshipyard.com</a>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-group">
+            <label class="form-label" data-i18n="contact.form.name">Name</label>
+            <input type="text" class="form-input" name="name" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" data-i18n="contact.form.email">Email</label>
+            <input type="email" class="form-input" name="email" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" data-i18n="contact.form.subject">Subject</label>
+            <input type="text" class="form-input" name="subject" />
+          </div>
+          <div class="form-group">
+            <label class="form-label" data-i18n="contact.form.message">Message</label>
+            <textarea class="form-input form-textarea" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn--dark" data-i18n="contact.form.submit">Send Message</button>
+          <div class="form-success" id="contactSuccess">
+            <p data-i18n="contact.form.success">Message received. We will reply shortly.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ FOOTER ════════ -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-logo" data-i18n="nav.logo">NINE KNOTS</span>
+          <span class="footer-tagline" data-i18n="footer.tagline">Built for the long passage. Designed for life aboard.</span>
+        </div>
+        <nav class="footer-nav">
+          <a href="#project"     class="footer-link" data-i18n="nav.project">Project</a>
+          <a href="#yacht"       class="footer-link" data-i18n="nav.yacht">The Yacht</a>
+          <a href="#philosophy"  class="footer-link" data-i18n="nav.design">Design</a>
+          <a href="#innovation"  class="footer-link" data-i18n="nav.innovation">Innovation</a>
+          <a href="#gallery"     class="footer-link" data-i18n="nav.gallery">Gallery</a>
+          <a href="#acquisition" class="footer-link" data-i18n="nav.acquire">Acquire</a>
+          <a href="#contact"     class="footer-link" data-i18n="nav.contact">Contact</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <span class="footer-copy" data-i18n="footer.copy">© 2025 Nine Knots Marine. All rights reserved.</span>
+        <div class="lang-switcher lang-switcher--footer">
+          <button class="lang-btn active" data-lang="en">English</button>
+          <span class="lang-divider">|</span>
+          <button class="lang-btn" data-lang="fr">Français</button>
+          <span class="lang-divider">|</span>
+          <button class="lang-btn" data-lang="zh">中文</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
