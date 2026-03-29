@@ -85,7 +85,7 @@ const translations = {
     'philosophy.p1':        'Every line of the 9K42\'s interior was drawn for a purpose — the angle of the navigation station, the height of the companionway, the depth of the cockpit. Where other yachts layer on aesthetics, we stripped back to structure. The result is an interior that feels serene rather than styled.',
     'philosophy.p2':        'On deck, a flush, uncluttered layout allows confident movement in any conditions. The helm offers full 360° visibility, with all instruments close at hand. The cockpit is sheltered, generous, and sized for long offshore passages.',
     'philosophy.p3':        'The colour of oiled oak. The weight of a stainless fitting. The silence of an electric drivetrain at cruising speed. These details are not decorative. They are the measure of a serious motor yacht.',
-    'philosophy.signature': '— The Nine Knots Design Studio, Gothenburg',
+    'philosophy.signature': '— The Nine Knots Design Studio, Nantes',
 
     /* For Whom */
     'forwhom.label':    'For Whom',
@@ -105,7 +105,7 @@ const translations = {
     'innovation.i2.title': 'Energy Independence',
     'innovation.i2.text':  'Significant solar integration paired with a Victron architecture and MPPT charge controllers. Sized for partial recharge from solar alone, hotel loads at anchor, and reduced generator hours. In sunny latitudes, months of autonomy without running the engine.',
     'innovation.i3.title': 'Watermaker System',
-    'innovation.i3.text':  'A 240 L/h reverse-osmosis watermaker, backed by 1,800 L of stainless tank capacity. Fresh water independence, anywhere. A secondary manually-operated emergency unit is fitted as standard.',
+    'innovation.i3.text':  'A 80 L/h reverse-osmosis watermaker, backed by 400 L of tank capacity. Fresh water independence, anywhere. A secondary manually-operated emergency unit is fitted as standard.',
     'innovation.i4.title': 'Navigation & Safety Systems',
     'innovation.i4.text':  'Integrated Furuno radar, AIS, and chart plotter. Iridium satellite communication. EPIRB and life raft sized for the crew. All critical systems duplicated with analogue fallback. The electronics serve you — not the reverse.',
 
@@ -176,7 +176,7 @@ const translations = {
     'imageband.quote': 'La mer est plus belle à 9 nœuds.',
 
     'hero.eyebrow':      'E-Trawler de Grand Large',
-    'hero.headline':     'Conçu pour ceux\nqui croisent au-delà',
+    'hero.headline':     'Conçu pour ceux\nqui naviguent plus loin',
     'hero.subheadline':  'Le 9K42 est un e-trawler compact et efficient — 12,8 m de design réfléchi, construit pour les traversées offshore à 7 nœuds avec une consommation quasi nulle.',
     'hero.cta1':         'Découvrir le 9K42',
     'hero.cta2':         'Manifester son intérêt',
@@ -196,7 +196,7 @@ const translations = {
 
     'yacht.label':          'Le Yacht',
     'yacht.title':          'Conçu pour la croisière hauturière efficiente',
-    'yacht.intro':          'Douze virgule huit mètres de design maîtrisé. Une carène de déplacement conçue pour une faible consommation énergétique, une progression régulière à 7 nœuds et une réelle indépendance offshore.',
+    'yacht.intro':          'Douze mètres quatre vingt de design maîtrisé. Une carène de déplacement conçue pour une faible consommation énergétique, une progression régulière à 7 nœuds et une réelle indépendance offshore.',
     'yacht.spec1.label':    'Longueur hors-tout',
     'yacht.spec1.detail':   'LFl ~12 m',
     'yacht.spec2.label':    'Largeur',
@@ -208,8 +208,8 @@ const translations = {
     'yacht.spec5.label':    'Propulsion électrique',
     'yacht.spec5.detail':   'Double motorisation silencieuse',
     'yacht.spec6.label':    'Vitesse de croisière',
-    'yacht.spec6.detail':   'Point de fonctionnement idéal à 7 nœuds',
-    'yacht.note':           'Construction sandwich composite à âme mousse. Bilge keels / appendices stabilisateurs passifs disponibles pour le confort hauturier. Catégorie ISO A/B selon spécification finale et charge réelle.',
+    'yacht.spec6.detail':   'Plage de fonctionnement idéale entre 7 et 9 nœuds',
+    'yacht.note':           'Construction sandwich composite epoxy à âme mousse. Bilge keels / appendices stabilisateurs actifs disponibles pour le confort hauturier. Catégorie ISO A/B selon spécifications finale et charge réelle.',
 
     'qualities.label':      'Qualités essentielles',
     'qualities.title':      'Ce pour quoi nous avons construit',
@@ -232,7 +232,7 @@ const translations = {
     'philosophy.p1':        'Chaque ligne du 9K42 a été tracée dans un but précis — l\'angle du poste de navigation, la hauteur du panneau, la profondeur du cockpit. Là où d\'autres yachts superposent l\'esthétique, nous avons retenu l\'essentiel. Le résultat est un intérieur serein plutôt que stylisé.',
     'philosophy.p2':        'Sur le pont, un aménagement épuré permet de se déplacer en confiance dans toutes les conditions. La barre offre une visibilité à 360° avec tous les instruments à portée de main. Le cockpit est protégé, généreux et dimensionné pour les longues traversées.',
     'philosophy.p3':        'La couleur du chêne huilé. Le poids d\'un accastillage inox. Le silence d\'une propulsion électrique à vitesse de croisière. Ces détails ne sont pas décoratifs. Ils sont la mesure d\'un yacht à moteur sérieux.',
-    'philosophy.signature': '— Le Studio de Design Nine Knots, Göteborg',
+    'philosophy.signature': '— Le Studio de Design Nine Knots, Nantes',
 
     'forwhom.label':    'Pour qui',
     'forwhom.title':    'Pour le capitaine qui a déjà traversé des océans',
@@ -250,7 +250,7 @@ const translations = {
     'innovation.i2.title': 'Indépendance énergétique',
     'innovation.i2.text':  'Intégration solaire significative couplée à une architecture Victron et des contrôleurs MPPT. Le système est dimensionné pour la recharge partielle par le solaire seul, l\'alimentation hôtelière au mouillage et la réduction des heures de groupe. Sous les tropiques, des mois d\'autonomie sans démarrer le moteur.',
     'innovation.i3.title': 'Système de dessalement',
-    'innovation.i3.text':  'Un osmoseur de 240 L/h, soutenu par 1 800 L de cuve inox. Indépendance en eau douce, partout. Un second système manuel d\'urgence est monté en série.',
+    'innovation.i3.text':  'Un osmoseur de 80 L/h, soutenu par 400 L de cuve inox. Indépendance en eau douce, partout. Un second système manuel d\'urgence est monté en série.',
     'innovation.i4.title': 'Navigation & sécurité',
     'innovation.i4.text':  'Radar Furuno, AIS et traceur de cartes intégrés. Communication satellite Iridium. Balise EPIRB et radeau de survie dimensionnés à l\'équipage. Tous les systèmes critiques sont doublés avec un recours analogique. L\'électronique est à votre service — pas l\'inverse.',
 
@@ -391,7 +391,7 @@ const translations = {
     'innovation.i2.title': '能源独立',
     'innovation.i2.text':  '大规模太阳能集成，配合Victron架构和MPPT充电控制器。系统设计兼顾仅靠太阳能的部分充电、锚地船载用电及减少发电机运行时间。在阳光充沛的地区，无需启动发动机即可实现数月自主。',
     'innovation.i3.title': '造水系统',
-    'innovation.i3.text':  '240升/小时反渗透造水机，配1800升不锈钢水箱。在任何地方实现淡水独立。标配手动应急备用装置。',
+    'innovation.i3.text':  '80升/小时反渗透造水机，配400升不锈钢水箱。在任何地方实现淡水独立。标配手动应急备用装置。',
     'innovation.i4.title': '导航与安全系统',
     'innovation.i4.text':  '集成 Furuno 雷达、AIS 和海图仪。铱星卫星通信。根据船员人数配备 EPIRB 和救生筏。所有关键系统均有模拟备份。电子设备为您服务——而非相反。',
 
