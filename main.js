@@ -629,7 +629,9 @@ function handleForm(formId, successId, endpoint, subject) {
       });
 
       if (res.ok) {
-        form.style.display  = 'none';
+        Array.from(form.children).forEach(child => {
+          if (child !== success) child.style.display = 'none';
+        });
         success.style.display = 'block';
       } else {
         btn.textContent = btn.getAttribute('data-i18n-original') || btn.textContent;
