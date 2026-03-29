@@ -142,7 +142,7 @@ const translations = {
     'acq.form.message':  'Your Project (optional)',
     'acq.form.submit':   'Register My Interest',
     'acq.form.note':     'Your information is treated with complete discretion and is never shared with third parties.',
-    'acq.form.success':  'Thank you. We will be in touch shortly.',
+    'acq.form.success':  'Thank you, your request has been sent. We will get back to you within 24 hours.',
 
     /* Contact */
     'contact.label':        'Contact',
@@ -155,7 +155,7 @@ const translations = {
     'contact.form.subject': 'Subject',
     'contact.form.message': 'Message',
     'contact.form.submit':  'Send Message',
-    'contact.form.success': 'Message received. We will reply shortly.',
+    'contact.form.success': 'Thank you, your message has been sent. We will get back to you within 24 hours.',
 
     /* Footer */
     'footer.tagline': 'Built for the long passage. Designed for life aboard.',
@@ -285,7 +285,7 @@ const translations = {
     'acq.form.message':  'Votre projet (facultatif)',
     'acq.form.submit':   'Manifester mon intérêt',
     'acq.form.note':     'Vos informations sont traitées avec une totale discrétion et ne sont jamais communiquées à des tiers.',
-    'acq.form.success':  'Merci. Nous vous contacterons prochainement.',
+    'acq.form.success':  'Merci, votre demande a bien été envoyée. Nous vous recontacterons sous 24 h.',
 
     'contact.label':        'Contact',
     'contact.title':        'Contacter\nle studio',
@@ -297,7 +297,7 @@ const translations = {
     'contact.form.subject': 'Objet',
     'contact.form.message': 'Message',
     'contact.form.submit':  'Envoyer',
-    'contact.form.success': 'Message reçu. Nous vous répondrons rapidement.',
+    'contact.form.success': 'Merci, votre message a bien été envoyé. Nous vous recontacterons sous 24 h.',
 
     'footer.tagline': 'Construit pour la grande traversée. Conçu pour vivre à bord.',
     'footer.copy':    '© 2025 Nine Knots Marine. Tous droits réservés.',
@@ -426,7 +426,7 @@ const translations = {
     'acq.form.message':  '您的项目（选填）',
     'acq.form.submit':   '登记购买意向',
     'acq.form.note':     '您的信息将受到严格保密，绝不与第三方共享。',
-    'acq.form.success':  '感谢您的关注，我们将尽快与您联系。',
+    'acq.form.success':  '感谢您，您的申请已成功发送。我们将在 24 小时内与您联系。',
 
     'contact.label':        '联系我们',
     'contact.title':        '联系\n设计工作室',
@@ -438,7 +438,7 @@ const translations = {
     'contact.form.subject': '主题',
     'contact.form.message': '留言',
     'contact.form.submit':  '发送消息',
-    'contact.form.success': '消息已收到，我们将尽快回复。',
+    'contact.form.success': '感谢您，您的消息已成功发送。我们将在 24 小时内回复您。',
 
     'footer.tagline': '为远洋而造，为海上生活而设计。',
     'footer.copy':    '© 2025 九节海洋。保留所有权利。',
@@ -584,17 +584,21 @@ function initReveal() {
 /* ─────────────────────────────────────────────────────────
    5. FORMS
 ───────────────────────────────────────────────────────── */
+/* Formspree endpoint — replace YOUR_FORM_ID with the actual ID from formspree.io */
+const FORMSPREE_ACQUISITION = 'https://formspree.io/f/xdapekpp';
+const FORMSPREE_CONTACT      = 'https://formspree.io/f/xdapekpp';
+
 function initForms() {
-  handleForm('acquisitionForm', 'acqSuccess');
-  handleForm('contactForm', 'contactSuccess');
+  handleForm('acquisitionForm', 'acqSuccess', FORMSPREE_ACQUISITION, 'Nine Knots — Register Interest');
+  handleForm('contactForm',     'contactSuccess', FORMSPREE_CONTACT, 'Nine Knots — Contact');
 }
 
-function handleForm(formId, successId) {
+function handleForm(formId, successId, endpoint, subject) {
   const form    = document.getElementById(formId);
   const success = document.getElementById(successId);
   if (!form || !success) return;
 
-  form.addEventListener('submit', e => {
+  form.addEventListener('submit', async e => {
     e.preventDefault();
 
     /* Basic validation */
@@ -610,18 +614,39 @@ function handleForm(formId, successId) {
 
     if (!valid) return;
 
-    /* Simulate async submission */
     const btn = form.querySelector('[type="submit"]');
     btn.textContent = '…';
     btn.disabled = true;
 
-    setTimeout(() => {
-      form.style.display = 'none';
-      success.style.display = 'block';
-    }, 900);
+    try {
+      const data = new FormData(form);
+      data.append('_subject', subject);
+
+      const res = await fetch(endpoint, {
+        method:  'POST',
+        body:    data,
+        headers: { 'Accept': 'application/json' },
+      });
+
+      if (res.ok) {
+        form.style.display  = 'none';
+        success.style.display = 'block';
+      } else {
+        btn.textContent = btn.getAttribute('data-i18n-original') || btn.textContent;
+        btn.disabled = false;
+        alert('Submission failed. Please try again or contact us directly.');
+      }
+    } catch {
+      btn.disabled = false;
+      btn.textContent = btn.getAttribute('data-i18n-original') || btn.textContent;
+      alert('Network error. Please check your connection and try again.');
+    }
   });
 
-  /* Clear error state on input */
+  /* Store original button text and clear error state on input */
+  const btn = form.querySelector('[type="submit"]');
+  if (btn) btn.setAttribute('data-i18n-original', btn.textContent);
+
   form.querySelectorAll('.form-input').forEach(field => {
     field.addEventListener('input', () => {
       field.style.borderBottomColor = '';
