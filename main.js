@@ -633,6 +633,8 @@ function handleForm(formId, successId, endpoint, subject) {
           if (child !== success) child.style.display = 'none';
         });
         success.style.display = 'block';
+        btn.blur();
+        success.scrollIntoView({ behavior: 'smooth', block: 'center' });
       } else {
         btn.textContent = btn.getAttribute('data-i18n-original') || btn.textContent;
         btn.disabled = false;
