@@ -111,7 +111,7 @@ const translations = {
 
     /* Gallery */
     'gallery.label': 'Gallery',
-    'gallery.title': 'Nine Knots Marine at Sea',
+    'gallery.title': '9K42 at Sea',
     'gallery.cap1':  'Arctic passage, calm fjord waters',
     'gallery.cap2':  'Underway, Mediterranean coast',
     'gallery.cap3':  'At anchor, French Polynesia',
@@ -255,7 +255,7 @@ const translations = {
     'innovation.i4.text':  'Radar Furuno, AIS et traceur de cartes intégrés. Communication satellite Iridium. Balise EPIRB et radeau de survie dimensionnés à l\'équipage. Tous les systèmes critiques sont doublés avec un recours analogique. L\'électronique est à votre service — pas l\'inverse.',
 
     'gallery.label': 'Galerie',
-    'gallery.title': 'Nine Knots Marine en mer',
+    'gallery.title': '9K42 en mer',
     'gallery.cap1':  'Passage arctique, eaux calmes du fjord',
     'gallery.cap2':  'En route, côte méditerranéenne',
     'gallery.cap3':  'Au mouillage, Polynésie française',
@@ -396,7 +396,7 @@ const translations = {
     'innovation.i4.text':  '集成 Furuno 雷达、AIS 与海图绘图仪，配备 Iridium 卫星通信、适合船员规模的 EPIRB 与救生筏。所有关键系统均设有模拟备用。电子设备应服务于您，而不是反过来。',
 
     'gallery.label': '图集',
-    'gallery.title': 'Nine Knots Marine 海上图集',
+    'gallery.title': '(9K42) 海上图集',
     'gallery.cap1':  '北极航段，平静的峡湾水域',
     'gallery.cap2':  '航行中，地中海海岸',
     'gallery.cap3':  '锚泊于法属波利尼西亚',
