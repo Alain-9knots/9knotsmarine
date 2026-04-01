@@ -85,7 +85,7 @@ const translations = {
     'philosophy.p1':        'Every line of the 9K42\'s interior was drawn for a purpose — the angle of the navigation station, the height of the companionway, the depth of the cockpit. Where other yachts layer on aesthetics, we stripped back to structure. The result is an interior that feels serene rather than styled.',
     'philosophy.p2':        'On deck, a flush, uncluttered layout allows confident movement in any conditions. The helm offers full 360° visibility, with all instruments close at hand. The cockpit is sheltered, generous, and sized for long offshore passages.',
     'philosophy.p3':        'The colour of oiled oak. The weight of a stainless fitting. The silence of an electric drivetrain at cruising speed. These details are not decorative. They are the measure of a serious motor yacht.',
-    'philosophy.signature': '— The Nine Knots Design Studio, Nantes',
+    'philosophy.signature': '— The Nine Knots Design Studio',
 
     /* For Whom */
     'forwhom.label':    'For Whom',
@@ -192,7 +192,7 @@ const translations = {
     'project.quote':   '« La mer exige l\'honnêteté d\'un yacht. Nous en avons conçu un qui peut répondre. »',
     'project.origin1': 'Fondé sur une expérience profonde de la croisière hauturière',
     'project.origin2': 'Conçu en collaboration avec des navigateurs hauturiers confirmés',
-    'project.origin3': 'Construit en Europe du Nord, selon les normes structurelles les plus élevées',
+    'project.origin3': 'Construit selon les normes structurelles les plus élevées',
 
     'yacht.label':          'Le Yacht',
     'yacht.title':          'Conçu pour l\'indépendance électrique en haute mer',
@@ -232,7 +232,7 @@ const translations = {
     'philosophy.p1':        'Chaque ligne du 9K42 a été tracée dans un but précis — l\'angle du poste de navigation, la hauteur du panneau, la profondeur du cockpit. Là où d\'autres yachts superposent l\'esthétique, nous avons retenu l\'essentiel. Le résultat est un intérieur serein plutôt que stylisé.',
     'philosophy.p2':        'Sur le pont, un aménagement épuré permet de se déplacer en confiance dans toutes les conditions. La barre offre une visibilité à 360° avec tous les instruments à portée de main. Le cockpit est protégé, généreux et dimensionné pour les longues traversées.',
     'philosophy.p3':        'La couleur du chêne huilé. Le poids d\'un accastillage inox. Le silence d\'une propulsion électrique à vitesse de croisière. Ces détails ne sont pas décoratifs. Ils sont la mesure d\'un yacht à moteur sérieux.',
-    'philosophy.signature': '— Le Studio de Design Nine Knots, Nantes',
+    'philosophy.signature': '— Le Studio de Design Nine Knots',
 
     'forwhom.label':    'Pour qui',
     'forwhom.title':    'Pour le capitaine qui a déjà traversé des océans',
