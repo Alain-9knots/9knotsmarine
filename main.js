@@ -176,7 +176,7 @@ const translations = {
     'imageband.quote': 'La mer est plus belle à 9 nœuds.',
 
     'hero.eyebrow':      'Yacht électrique autonome de grand voyage',
-    'hero.headline':     'Conçu pour une\nautonomie silencieuse en mer',
+    'hero.headline':     'Conçu pour l\'autonomie et le silence en mer',
     'hero.subheadline':  'Le 9K42 est un yacht électrique compact et efficient — 12,8 m de design maîtrisé, pensé pour les traversées offshore à 7 nœuds, la propulsion silencieuse et une vraie vie à bord avec une dépendance au carburant quasi nulle.',
     'hero.cta1':         'Découvrir le 9K42',
     'hero.cta2':         'Manifester son intérêt',
