@@ -24,9 +24,9 @@ const translations = {
     'imageband.quote': 'The sea is better at 9 knots.',
 
     /* Hero */
-    'hero.eyebrow':      'Long-Range Electric Trawler',
-    'hero.headline':     'Crafted for Those\nWho Cruise Beyond',
-    'hero.subheadline':  'The 9K42 is a compact, efficient electric trawler — 12.8 m of considered design, built for offshore passages at 7 knots with near-zero fuel consumption.',
+    'hero.eyebrow':      'Autonomous Long-Range Electric Yacht',
+    'hero.headline':     'Crafted for Quiet\nOcean Independence',
+    'hero.subheadline':  'The 9K42 is a compact, efficient electric yacht — 12.8 m of refined design conceived for offshore passages at 7 knots, silent propulsion, and genuine life aboard with near-zero fuel dependence.',
     'hero.cta1':         'Discover the 9K42',
     'hero.cta2':         'Register Interest',
     'hero.stat1':        'Overall Length',
@@ -35,10 +35,10 @@ const translations = {
 
     /* Project */
     'project.label':   'The Project',
-    'project.title':   'A New Vision of\nBlue-Water Cruising',
-    'project.p1':      'Nine Knots Marine was born from years of offshore experience and a clear conviction: the perfect ocean passage is one where the yacht disappears into the background, and the sea takes centre stage.',
-    'project.p2':      'We questioned every convention. We studied what breaks, what wears, what fatigues crews on long passages — and what, by contrast, inspires confidence and peace of mind. Then we designed a motor yacht that answers those questions honestly.',
-    'project.p3':      'Not a performance speedboat. Not a floating apartment. A proper offshore motor yacht: safe, capable, autonomous — and deeply satisfying to live aboard for weeks at a time.',
+    'project.title':   'A New Vision of\nElectric Blue-Water Cruising',
+    'project.p1':      'Nine Knots Marine was born from years of offshore experience and a clear conviction: the ideal ocean passage is quieter, simpler, and less dependent on fuel — a passage where the yacht disappears into the background and the sea takes centre stage.',
+    'project.p2':      'We questioned every convention. We studied what breaks, what wears, what fatigues crews on long passages — and how electric propulsion, sober energy use, and robust onboard systems can reduce noise, maintenance, and dependence on marinas. Then we designed a motor yacht that answers those questions honestly.',
+    'project.p3':      'Not a performance speedboat. Not a floating apartment. A proper offshore electric motor yacht: safe, capable, energy-autonomous — and deeply satisfying to live aboard for weeks at a time.',
     'project.quote':   '"The sea demands honesty from a yacht. We designed one that can answer."',
     'project.origin1': 'Founded on deep offshore cruising experience',
     'project.origin2': 'Designed in collaboration with veteran blue-water cruisers',
@@ -46,8 +46,8 @@ const translations = {
 
     /* Yacht */
     'yacht.label':          'The Yacht',
-    'yacht.title':          'Designed for Efficient Offshore Cruising',
-    'yacht.intro':          'Twelve point eight metres of refined design. A displacement hull conceived for low energy consumption, steady progress at 7 knots, and genuine energy independence offshore.',
+    'yacht.title':          'Designed for Electric Offshore Independence',
+    'yacht.intro':          'Twelve point eight metres of refined design. A displacement hull conceived for low energy consumption, quiet electric cruising at 7 knots, and genuine offshore energy independence.',
     'yacht.spec1.label':    'Overall Length',
     'yacht.spec1.detail':   'LWL ~12 m',
     'yacht.spec2.label':    'Beam',
@@ -68,7 +68,7 @@ const translations = {
     'qualities.q1.title':   'Offshore Safety',
     'qualities.q1.text':    'A double-skinned composite hull built to ISO Category A — ocean. Redundant steering, self-draining cockpit, structural integrity designed for survival conditions.',
     'qualities.q2.title':   'True Autonomy',
-    'qualities.q2.text':    'Months at anchor without a marina. Solar panels, a 80 kWh battery pack, up to 120 kWh, and the range extender provide complete energy independence. The 9K42 sustains itself so you can focus on the journey.',
+    'qualities.q2.text':    'Months at anchor without a marina. Solar integration, an 80 kWh battery pack expandable to 120 kWh, and a carefully sized range extender provide genuine onboard autonomy. The 9K42 sustains itself so you can focus on the journey.',
     'qualities.q3.title':   'Seakeeping',
     'qualities.q3.text':    'A displacement hull designed for steady, comfortable progress in all sea states. Moderate speed, a deep forefoot, and generous initial stability translate into a calm, predictable motion at sea.',
     'qualities.q4.title':   'Comfort Aboard',
@@ -98,12 +98,12 @@ const translations = {
 
     /* Innovation */
     'innovation.label':    'Innovation & Energy',
-    'innovation.title':    'Technology in\nthe Service of Independence',
-    'innovation.intro':    'Nine Knots Marine incorporates advanced systems with one guiding principle: they should make your life at sea quieter, safer, and more self-sufficient — not more complicated.',
+    'innovation.title':    'Technology in\nthe Service of Quiet Autonomy',
+    'innovation.intro':    'Nine Knots Marine incorporates advanced systems with one guiding principle: they should make your life at sea quieter, safer, more energy-autonomous, and less dependent on shore infrastructure — not more complicated.',
     'innovation.i1.title': 'Hybrid Propulsion',
     'innovation.i1.text':  'Twin 25 kW electric motors on a 96V DC bus, providing redundancy and precise manoeuvring. A 7.5–9 kW diesel generator acts as a considered range extender — not a primary drive, but a reliable backup that extends offshore autonomy without complexity.',
     'innovation.i2.title': 'Energy Independence',
-    'innovation.i2.text':  'Significant solar integration paired with a Victron architecture and MPPT charge controllers. Sized for partial recharge from solar alone, hotel loads at anchor, and reduced generator hours. In sunny latitudes, months of autonomy without running the engine.',
+    'innovation.i2.text':  'Significant solar integration paired with a Victron architecture and MPPT charge controllers. Sized for hotel loads at anchor, partial recharge from solar alone, and minimal generator hours. In sunny latitudes, the boat can remain autonomous for months without relying on shore power.',
     'innovation.i3.title': 'Watermaker System',
     'innovation.i3.text':  'A 80 L/h reverse-osmosis watermaker, backed by 400 L of tank capacity. Fresh water independence, anywhere. A secondary manually-operated emergency unit is fitted as standard.',
     'innovation.i4.title': 'Navigation & Safety Systems',
@@ -129,7 +129,7 @@ const translations = {
     /* Acquisition */
     'acq.label':         'Acquisition',
     'acq.title':         'Join the First Series',
-    'acq.intro':         'The initial production run is limited to twelve hulls. If the 9K42 corresponds to your vision of offshore cruising, we invite you to register your interest. A member of our team will contact you personally to discuss your project.',
+    'acq.intro':         'The initial production run is limited to twelve hulls. If your vision of offshore cruising includes silent electric propulsion and genuine autonomy at anchor, we invite you to register your interest. A member of our team will contact you personally to discuss your project.',
     'acq.form.name':     'Full Name',
     'acq.form.email':    'Email Address',
     'acq.form.country':  'Country',
@@ -158,7 +158,7 @@ const translations = {
     'contact.form.success': 'Thank you, your message has been sent. We will get back to you within 24 hours.',
 
     /* Footer */
-    'footer.tagline': 'Built for the long passage. Designed for life aboard.',
+    'footer.tagline': 'Built for quiet autonomy. Designed for the long passage.',
     'footer.copy':    '© 2025 Nine Knots Marine. All rights reserved.',
   },
 
@@ -175,9 +175,9 @@ const translations = {
 
     'imageband.quote': 'La mer est plus belle à 9 nœuds.',
 
-    'hero.eyebrow':      'E-Trawler de Grand Large',
-    'hero.headline':     'Conçu pour ceux\nqui naviguent plus loin',
-    'hero.subheadline':  'Le 9K42 est un e-trawler compact et efficient — 12,8 m de design réfléchi, construit pour les traversées offshore à 7 nœuds avec une consommation quasi nulle.',
+    'hero.eyebrow':      'Yacht électrique autonome de grand voyage',
+    'hero.headline':     'Conçu pour une\nautonomie silencieuse en mer',
+    'hero.subheadline':  'Le 9K42 est un yacht électrique compact et efficient — 12,8 m de design maîtrisé, pensé pour les traversées offshore à 7 nœuds, la propulsion silencieuse et une vraie vie à bord avec une dépendance au carburant quasi nulle.',
     'hero.cta1':         'Découvrir le 9K42',
     'hero.cta2':         'Manifester son intérêt',
     'hero.stat1':        'Longueur hors-tout',
@@ -185,18 +185,18 @@ const translations = {
     'hero.stat3':        'Coques — Première série',
 
     'project.label':   'Le Projet',
-    'project.title':   'Une nouvelle vision\nde la croisière hauturière',
-    'project.p1':      'Nine Knots Marine est né d\'années d\'expérience offshore et d\'une conviction simple : la traversée océanique idéale est celle où le yacht s\'efface pour laisser la mer occuper toute la place.',
-    'project.p2':      'Nous avons remis en question chaque convention. Nous avons étudié ce qui casse, ce qui s\'use, ce qui fatigue les équipages lors des longues traversées — et ce qui, à l\'inverse, inspire la confiance et la sérénité. Puis nous avons conçu un yacht à moteur qui répond honnêtement à ces questions.',
-    'project.p3':      'Pas un hors-bord de vitesse. Pas un appartement flottant. Un vrai yacht hauturier à moteur électrique : sûr, capable, autonome — et profondément satisfaisant à vivre à bord pendant des semaines.',
+    'project.title':   'Une nouvelle vision\nde la croisière électrique hauturière',
+    'project.p1':      'Nine Knots Marine est né d\'années d\'expérience offshore et d\'une conviction simple : la traversée océanique idéale est plus silencieuse, plus simple et moins dépendante du carburant — une traversée où le yacht s\'efface pour laisser la mer occuper toute la place.',
+    'project.p2':      'Nous avons remis en question chaque convention. Nous avons étudié ce qui casse, ce qui s\'use, ce qui fatigue les équipages lors des longues traversées — et comment la propulsion électrique, une consommation énergétique sobre et des systèmes robustes peuvent réduire le bruit, la maintenance et la dépendance aux infrastructures à terre. Puis nous avons conçu un yacht à moteur qui répond honnêtement à ces questions.',
+    'project.p3':      'Pas un hors-bord de vitesse. Pas un appartement flottant. Un vrai yacht hauturier à moteur électrique : sûr, capable, énergétiquement autonome — et profondément satisfaisant à vivre à bord pendant des semaines.',
     'project.quote':   '« La mer exige l\'honnêteté d\'un yacht. Nous en avons conçu un qui peut répondre. »',
     'project.origin1': 'Fondé sur une expérience profonde de la croisière hauturière',
     'project.origin2': 'Conçu en collaboration avec des navigateurs hauturiers confirmés',
     'project.origin3': 'Construit en Europe du Nord, selon les normes structurelles les plus élevées',
 
     'yacht.label':          'Le Yacht',
-    'yacht.title':          'Conçu pour la croisière hauturière efficiente',
-    'yacht.intro':          'Douze mètres quatre vingt de design maîtrisé. Une carène de déplacement conçue pour une faible consommation énergétique, une progression régulière à 7 nœuds et une réelle indépendance offshore.',
+    'yacht.title':          'Conçu pour l\'indépendance électrique en haute mer',
+    'yacht.intro':          'Douze mètres quatre-vingt de design maîtrisé. Une carène de déplacement conçue pour une faible consommation énergétique, une croisière électrique silencieuse à 7 nœuds et une véritable indépendance énergétique en haute mer.',
     'yacht.spec1.label':    'Longueur hors-tout',
     'yacht.spec1.detail':   'LFl ~12 m',
     'yacht.spec2.label':    'Largeur',
@@ -216,7 +216,7 @@ const translations = {
     'qualities.q1.title':   'Sécurité hauturière',
     'qualities.q1.text':    'Une coque composite à double peau construite selon la norme ISO Catégorie A — océan. Direction redondante, cockpit auto-videur, intégrité structurelle conçue pour les conditions de survie.',
     'qualities.q2.title':   'Autonomie véritable',
-    'qualities.q2.text':    'Des mois au mouillage sans marina. Le solaire, l\'éolien et la propulsion hybride assurent une indépendance énergétique durable. Le yacht se suffit à lui-même pour que vous vous concentriez sur la navigation.',
+    'qualities.q2.text':    'Des mois au mouillage sans marina. L\'intégration solaire, un parc batterie de 80 kWh extensible à 120 kWh et un range extender soigneusement dimensionné assurent une autonomie réelle à bord. Le 9K42 se suffit à lui-même pour que vous vous concentriez sur la navigation.',
     'qualities.q3.title':   'Tenue à la mer',
     'qualities.q3.text':    'Une carène conçue pour une progression régulière et confortable dans tous les états de mer. Déplacement modéré, étrave profonde et stabilité initiale généreuse — une route stable et prévisible.',
     'qualities.q4.title':   'Confort à bord',
@@ -243,12 +243,12 @@ const translations = {
     'forwhom.profile3': 'L\'armateur à la recherche d\'un investissement durable et réfléchi dans la navigation sérieuse',
 
     'innovation.label':    'Innovation & Énergie',
-    'innovation.title':    'La technologie au\nservice de l\'indépendance',
-    'innovation.intro':    'Nine Knots Marine intègre des systèmes avancés avec un seul principe directeur : ils doivent rendre votre vie en mer plus silencieuse, plus sûre et plus autonome — pas plus complexe.',
+    'innovation.title':    'La technologie au\nservice d\'une autonomie silencieuse',
+    'innovation.intro':    'Nine Knots Marine intègre des systèmes avancés avec un seul principe directeur : ils doivent rendre votre vie en mer plus silencieuse, plus sûre, plus autonome énergétiquement et moins dépendante des infrastructures à terre — pas plus complexe.',
     'innovation.i1.title': 'Propulsion hybride',
     'innovation.i1.text':  'Double motorisation électrique 2 × 25 kW sur bus DC 96V : redondance totale, manœuvres précises, silence absolu. Un groupe électrogène d\'appoint de 7,5 à 9 kW agit en range extender raisonné — pas une propulsion principale, mais un prolongateur d\'autonomie fiable en hauturier.',
     'innovation.i2.title': 'Indépendance énergétique',
-    'innovation.i2.text':  'Intégration solaire significative couplée à une architecture Victron et des contrôleurs MPPT. Le système est dimensionné pour la recharge partielle par le solaire seul, l\'alimentation hôtelière au mouillage et la réduction des heures de groupe. Sous les tropiques, des mois d\'autonomie sans démarrer le moteur.',
+    'innovation.i2.text':  'Intégration solaire significative couplée à une architecture Victron et des contrôleurs MPPT. Le système est dimensionné pour les consommations hôtelières au mouillage, une recharge partielle par le solaire seul et un recours minimal au groupe. Sous les tropiques, le bateau peut rester autonome pendant des mois sans dépendre du quai.',
     'innovation.i3.title': 'Système de dessalement',
     'innovation.i3.text':  'Un déssalinisateur de 80 L/h, soutenu par 400 L de cuve inox. Indépendance en eau douce, partout. Un second système manuel d\'urgence est monté en série.',
     'innovation.i4.title': 'Navigation & sécurité',
@@ -272,7 +272,7 @@ const translations = {
 
     'acq.label':         'Acquisition',
     'acq.title':         'Rejoindre la première série',
-    'acq.intro':         'La première série de production est limitée à douze coques. Si le 9K42 correspond à votre vision de la croisière hauturière, nous vous invitons à manifester votre intérêt. Un membre de notre équipe vous contactera personnellement pour discuter de votre projet.',
+    'acq.intro':         'La première série de production est limitée à douze coques. Si votre vision de la croisière hauturière inclut une propulsion électrique silencieuse et une vraie autonomie au mouillage, nous vous invitons à manifester votre intérêt. Un membre de notre équipe vous contactera personnellement pour discuter de votre projet.',
     'acq.form.name':     'Nom complet',
     'acq.form.email':    'Adresse e-mail',
     'acq.form.country':  'Pays',
@@ -299,7 +299,7 @@ const translations = {
     'contact.form.submit':  'Envoyer',
     'contact.form.success': 'Merci, votre message a bien été envoyé. Nous vous recontacterons sous 24 h.',
 
-    'footer.tagline': 'Construit pour la grande traversée. Conçu pour vivre à bord.',
+    'footer.tagline': 'Construit pour une autonomie silencieuse. Conçu pour la grande traversée.',
     'footer.copy':    '© 2025 Nine Knots Marine. Tous droits réservés.',
   },
 
@@ -316,9 +316,9 @@ const translations = {
 
     'imageband.quote': '大海在 9 节时更美。',
 
-    'hero.eyebrow':      '长航程电动拖网巡航艇',
-    'hero.headline':     '让我们.逐光而行，静听海浪\n双核驱动,去到地平线的尽头',
-    'hero.subheadline':  '9K42 是一艘紧凑而高效的电动拖网巡航艇——12.8 米的精心设计，专为以 7 节速度进行远洋航行而生，燃油消耗几近为零。',
+    'hero.eyebrow':      '远洋自主电动游艇',
+    'hero.headline':     '为静谧与自主的\n远洋自行而生',
+    'hero.subheadline':  '9K42 是一艘紧凑而高效的电动游艇——12.8 米的精心设计，专为以 7 节速度进行远洋航行、静音推进以及接近零燃油依赖的船上生活而构想。',
     'hero.cta1':         '探索 9K42',
     'hero.cta2':         '登记意向',
     'hero.stat1':        '总长',
@@ -326,18 +326,18 @@ const translations = {
     'hero.stat3':        '首批系列船体',
 
     'project.label':   '项目',
-    'project.title':   '蓝水巡航的\n全新愿景',
-    'project.p1':      'Nine Knots Marine 源自多年的远洋经验，让我们秉持一个清晰的信念：理想的远洋航程，应当让游艇退居背景，而让大海成为真正的主角。',
-    'project.p2':      '我们审视了已有远洋游艇的案例；我们研究长航程中哪些部件易损坏、哪些易磨损、哪些会让船员疲惫；另外，我们重点关注哪些因素能够带来信心与安宁。在此基础上，我们竭诚设计出一艘能够回应这些需求的机动游艇。',
-    'project.p3':      '它不是仅仅追求性能的快艇，也不是一座简单的漂浮公寓，而是一艘真正的远洋机动游艇：安全、可靠、自主，海洋友好。',
+    'project.title':   '电动蓝水巡航的\n全新愿景',
+    'project.p1':      'Nine Knots Marine 源自多年的远洋经验，以及一个清晰的信念：理想的远洋航程应当更安静、更简洁、更少依赖燃油——让游艇退居背景，而让大海成为真正的主角。',
+    'project.p2':      '我们重新审视了每一项惯例。我们研究了长航程中哪些部件易损坏、哪些易磨损、哪些会让船员疲惫，也研究了电动推进、节制的能源策略以及稳健的船载系统如何能够减少噪音、降低维护成本并摆脱对码头的依赖。在此基础上，我们设计出一艘能够坦诚回应这些问题的机动游艇。',
+    'project.p3':      '它不是追求速度的快艇，也不是漂浮公寓，而是一艘真正的远洋电动机动游艇：安全、可靠、能源自主——在船上连续生活数周，依然令人心满意足。',
     'project.quote':   '"大海，蔚蓝纯净;大海，深邃辽阔。竭尽设计之力，建造之严谨，追寻我们的星辰大海。"',
     'project.origin1': '源自深厚的远洋巡航经验',
     'project.origin2': '与资深蓝水航海者共同设计',
     'project.origin3': '于北欧建造，遵循最高结构标准',
 
     'yacht.label':          '游艇',
-    'yacht.title':          '为高效远洋巡航而设计',
-    'yacht.intro':          '12.8 米的精炼设计。一体排水型船体，专为低能耗、7 节稳定推进以及真正的离岸能源独立而构想。',
+    'yacht.title':          '为海上电动独立性而设计',
+    'yacht.intro':          '12.8 米的精炼设计。一体排水型船体，专为低能耗、7 节静音电动巡航以及真正的离岸能源独立而构想。',
     'yacht.spec1.label':    '总长',
     'yacht.spec1.detail':   '水线长约 12 米',
     'yacht.spec2.label':    '船宽',
@@ -357,7 +357,7 @@ const translations = {
     'qualities.q1.title':   '远洋安全',
     'qualities.q1.text':    '双层复合材料船体，按 ISO A 类（远洋）标准打造。冗余转向、自排水驾驶舱，以及面向极端海况的结构完整性设计。',
     'qualities.q2.title':   '真正的自主性',
-    'qualities.q2.text':    '无需依赖码头，也能在锚地停留数月。太阳能板、80 kWh 电池组（可扩展至 120 kWh）以及增程系统，共同提供完整的能源独立性。9K42 能够自我维持，让您专注于航程本身。',
+    'qualities.q2.text':    '无需依赖码头，也能在锚地停留数月。太阳能集成、80 kWh 可扩展至 120 kWh 的电池组，以及经过精心设计的增程系统，共同提供真正的船上自主能力。9K42 能够自我维持，让您专注于航程本身。',
     'qualities.q3.title':   '适航性',
     'qualities.q3.text':    '排水型船体专为在各种海况下实现稳定而舒适的前进而设计。适中的航速、深 V 首部与充足的初稳性，带来平和、可预期的海上运动表现。',
     'qualities.q4.title':   '船上舒适性',
@@ -384,12 +384,12 @@ const translations = {
     'forwhom.profile3': '寻求对严肃远洋巡航进行长期、审慎投入的船主',
 
     'innovation.label':    '创新与能源',
-    'innovation.title':    '让技术服务于\n独立自主',
-    'innovation.intro':    'Nine Knots Marine 融合了先进系统，但始终遵循一个原则：这些技术应让您的海上生活更安静、更安全、更自给自足，而不是更复杂。',
+    'innovation.title':    '让技术服务于\n静谧自主',
+    'innovation.intro':    'Nine Knots Marine 融合了先进系统，但始终遵循一个原则：这些技术应让您的海上生活更安静、更安全、更具能源自主性，并更少依赖岸上设施——而不是更复杂。',
     'innovation.i1.title': '混合动力推进',
     'innovation.i1.text':  '双 25 kW 电机，基于 96V 直流系统，提供冗余保障与精准操控。一台 7.5–9 kW 柴油发电机作为审慎设计的增程器存在——它不是主推进，而是在不增加复杂性的前提下，可靠延长离岸自主能力的后备系统。',
     'innovation.i2.title': '能源独立',
-    'innovation.i2.text':  '大面积太阳能集成，配合 Victron 架构与 MPPT 充电控制器。系统容量既能依靠太阳能实现部分回充，也能覆盖锚地生活用电，并减少发电机工作时长。在阳光充足的海域，无需启动主机，也可实现数月自主。',
+    'innovation.i2.text':  '大面积太阳能集成，配合 Victron 架构与 MPPT 充电控制器。系统容量既能覆盖锚地生活用电，也可依靠太阳能实现部分回充，并将发电机工作时长降至最低。在阳光充足的海域，船艇可在数月内不依赖岸电而保持完全自主。',
     'innovation.i3.title': '造水系统',
     'innovation.i3.text':  '80 升/小时反渗透造水机，配合 400 升储水容量。无论身在何处，都可获得淡水独立。标配一套手动应急备用装置。',
     'innovation.i4.title': '导航与安全系统',
@@ -413,7 +413,7 @@ const translations = {
 
     'acq.label':         '购置',
     'acq.title':         '加入首批系列',
-    'acq.intro':         '首批生产将限量十二艘。若 9K42 符合您对远洋巡航的想象，欢迎登记您的意向。我们的团队成员将亲自与您联系，进一步了解您的项目。',
+    'acq.intro':         '首批生产限量十二艘。若您对远洋巡航的设想包含静音电动推进与真正的锚地自主性，欢迎登记您的意向。我们的团队成员将亲自与您联系，进一步了解您的项目。',
     'acq.form.name':     '姓名',
     'acq.form.email':    '电子邮箱',
     'acq.form.country':  '国家 / 地区',
@@ -440,7 +440,7 @@ const translations = {
     'contact.form.submit':  '发送信息',
     'contact.form.success': '信息已收到。我们将尽快回复您。',
 
-    'footer.tagline': '为长航程而造，为船上生活而设计。',
+    'footer.tagline': '为静谧自主而造，为远洋自行而设计。',
     'footer.copy':    '© 2025 Nine Knots Marine。保留所有权利。',
   },
 };
@@ -498,7 +498,7 @@ function updateLangButtons() {
 
 function updatePageTitle() {
   const titles = {
-    en: 'NINE KNOTS MARINE — Long-Range Cruising Yacht',
+    en: 'NINE KNOTS MARINE — Autonomous Long-Range Electric Yacht',
     fr: 'NINE KNOTS MARINE — Voilier de Grand Voyage',
     zh: '九节海洋 — 远洋电动游艇',
   };
